@@ -1,48 +1,48 @@
 {
     "load_characteristics": {
-        "duration_sec": 130.113,
-        "max_threads": 211,
-        "first_failure_threads": 115,
-        "requests_per_sec": 24.00221346060732
+        "duration_sec": 736.885,
+        "max_threads": 183,
+        "first_failure_threads": 92,
+        "requests_per_sec": 56.01145361895004
     },
     "response_times": {
-        "mean": 3976.0252961895612,
-        "median": 4116.0,
-        "p90": 6892.0,
-        "p95": 8201.0,
-        "p99": 9483.56,
-        "max": 10474.0,
-        "min": 508.0,
-        "std_dev": 2498.1340009190058
+        "mean": 3273.439937975481,
+        "median": 3036.0,
+        "p90": 4674.000000000044,
+        "p95": 5589.0,
+        "p99": 7808.0,
+        "max": 9212.0,
+        "min": 526.0,
+        "std_dev": 1182.7068228508797
     },
     "error_analysis": {
-        "total_errors": 80,
-        "error_rate": 0.025616394492475183,
+        "total_errors": 420,
+        "error_rate": 0.010175897659543538,
         "error_codes_distribution": {
-            "500": 80
+            "500": 420
         },
         "error_clustering": {
-            "avg_interval_sec": 0.8278354430379747,
-            "min_interval_sec": -1.131,
+            "avg_interval_sec": 0.2701312649164678,
+            "min_interval_sec": -1.358,
             "cluster_threshold_sec": 5.0,
             "is_clustered": true
         }
     },
     "network_metrics": {
-        "avg_latency": 3976.014409221902,
-        "avg_connect_time": 2.2007684918347743,
-        "bytes_sent_avg": 162.0,
-        "bytes_received_avg": 231.05123278898495
+        "avg_latency": 3273.429180597955,
+        "avg_connect_time": 0.06866308087415807,
+        "bytes_sent_avg": 158.0,
+        "bytes_received_avg": 231.0203517953191
     },
     "advanced_metrics": {
-        "throughput_mb_sec": 0.005288830766427698,
-        "response_time_slope": 1721.466623925389,
-        "anomaly_count": 157,
-        "domino_effect_ratio": -0.989361890746618
+        "throughput_mb_sec": 0.012340341300599134,
+        "response_time_slope": 2.6283614221244207,
+        "anomaly_count": 2056,
+        "domino_effect_ratio": -1.0
     },
     "thread_stats": {
-        "threads_with_errors": 80,
-        "max_errors_per_thread": 1,
-        "thread_utilization": 437.7679260730105
+        "threads_with_errors": 210,
+        "max_errors_per_thread": 2,
+        "thread_utilization": 611.1670975344412
     }
 }
