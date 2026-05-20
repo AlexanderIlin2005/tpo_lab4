@@ -4,7 +4,7 @@ import matplotlib.dates as md
 import numpy as np
 
 # Load CSV data
-df = pd.read_csv("./stress/result/results.csv")
+df = pd.read_csv("./result/results.csv")
 
 # Convert timestamp to datetime
 df['timeStamp'] = pd.to_datetime(df['timeStamp'], unit='ms')
